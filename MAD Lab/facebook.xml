@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp" >
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="0dp"
+        android:src="@drawable/image" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="310dp"
+        android:src="@drawable/img1" />
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="340dp"
+        android:src="@drawable/img2" />
+    <ImageView
+        android:layout_width="40dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="60dp"
+        android:src="@drawable/img8" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:textSize="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="65dp"
+        android:text="Marina" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="85dp"
+        android:textSize="10dp"
+        android:layout_marginLeft="50dp"
+        android:text="India" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="75dp"
+        android:textSize="20dp"
+        android:layout_marginLeft="78dp"
+        android:text="." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="86dp"
+        android:textSize="9dp"
+        android:layout_marginLeft="88dp"
+        android:text="2hours" />
+
+    <ImageView
+        android:layout_width="10dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="83dp"
+        android:layout_marginLeft="118dp"
+        android:src="@drawable/img14" />
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="50dp"
+        android:src="@drawable/img20" />
+
+</RelativeLayout>
